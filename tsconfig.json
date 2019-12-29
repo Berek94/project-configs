@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["es6", "es7", "dom"],
+    "noImplicitAny": false,
+    "outDir": "./build",
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "target": "es5",
+    "strictNullChecks": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "isolatedModules": true
+  },
+  "include": ["./src/index.ts"]
+}
