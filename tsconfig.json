@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
+    "noEmit": true,
     "allowSyntheticDefaultImports": true,
     "module": "esnext",
     "moduleResolution": "node",
-    "lib": ["es6", "es7", "dom"],
+    "lib": ["DOM"],
     "noImplicitAny": false,
-    "outDir": "./build",
     "preserveConstEnums": true,
     "sourceMap": true,
     "target": "es5",
@@ -15,7 +15,8 @@
     "noUnusedParameters": true,
     "esModuleInterop": true,
     "importHelpers": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "jsx": "react"
   },
   "include": ["./src/index.ts"]
 }
